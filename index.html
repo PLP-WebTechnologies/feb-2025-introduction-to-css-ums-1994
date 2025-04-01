@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An example page with images, forms, tables, and multimedia elements.">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List of Roman Numerals</h2>
+        <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Sample Image</h2>
+        <img src="https://images.pexels.com/photos/1239296/pexels-photo-1239296.jpeg" alt="Sample Image from Pexels" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Charmaine Mkoko</td>
+                    <td>123 Main St</td>
+                    <td>(123) 456-7890</td>
+                    <td>charmainemkoko@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St</td>
+                    <td>(987) 654-3210</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>789 Oak St</td>
+                    <td>(555) 555-5555</td>
+                    <td>emilydavis@example.com</td>
+                </tr>
+                <tr>
+                    <td>Thabang Nkabinde</td>
+                    <td>101 Pine St</td>
+                    <td>(333) 333-3333</td>
+                    <td>thabangnkabinde@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Unathi Sibanda</td>
+                    <td>202 Birch St</td>
+                    <td>(444) 444-4444</td>
+                    <td>unathisiban@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="us">South Africa</option>
+                <option value="ca">Nigeria</option>
+                <option value="uk">United Kingdom</option>
+                <option value="au">London</option>
+            </select><br><br>
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia: Audio and Video -->
+    <section>
+        <h2>Multimedia Elements</h2>
+
+        <!-- Audio Element -->
+        <h3>Audio Example</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <!-- Video Element -->
+        <h3>Video Example</h3>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
